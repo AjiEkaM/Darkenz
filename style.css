@@ -511,7 +511,7 @@ body {
 .paragrafBlog1{
   display: flex;
   position: absolute;
-  top: 30%;
+  top: 40%;
   align-items: center;
   width: 90%;
   height: auto;
@@ -524,7 +524,9 @@ body {
 }
 
 .judulBlog1{
+  display: inline-block;
   position: absolute;
   top: 20%;
   color: white;
+  font-family: "Montserrat", sans-serif;
 }
