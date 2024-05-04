@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+  <title>Darkenz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="navbarWrapper">
+  <div class="navbarContent">
+    <div class="logo">
+      <h1>DARKENZ</h1>
+    </div>
+    <div class="content">
+      <ul>
+        <li><a onclick="buttonHome()">Home</a></li>
+        <li><a onclick="buttonNext()">Community</a></li>
+        <li><a onclick="buttonTools()">Tools</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="bannerWrapper" id="home">
+  <div class="bannerContent">
+    <div class="bannerIMG">
+      <img src="banner1.jpg" alt="banner1" />
+      <img src="banner2.png" alt="banner2" />
+      <img src="banner3.jpg" alt="banner3" />
+    </div>
+    <div class="bannerButtons">
+      <input type="radio" id="radio1" name="buttons" value="1">
+      <input type="radio" id="radio2" name="buttons" value="2">
+      <input type="radio" id="radio3" name="buttons" value="3">
+    </div>
+  </div>
+</div>
+
+<div class="home">
+  <div class="homeContent">
+    <h1 class="judul">Darkenz Server</h1>
+    <p>Selamat datang di website official Darkenz disini menyediakan berbagai macam info tentang server Minecraft dan memudahkan anda untuk bergabung dengan komunitas kami klik untuk melanjutkan.</p>
+    <h1 class="buttonNext" onclick="buttonNext()" id="community">BERGABUNG</h1>
+  </div>
+</div>
+
+<div class="community">
+  <div class="communityContent">
+    <h1 class="communityLogo">KOMUNITAS</h1>
+    <div class="discord" id="discord">
+      <img src="discord.png" alt="discord" />
+      <h1>Discord</h1>
+    </div>
+    <div class="whatsapp" id="whatsapp">
+      <img src="whatsapp.png" alt="whatsapp" />
+      <h1>Whatsapp</h1>
+    </div>
+    <p id="tools">Bergabunglah dengan komunitas kami untuk mengetahui tentang info server minecraft dan lainnya, kami menyambut anda dengan baik ^_^</p>
+    <h1 class="buttonTools" onclick="">MINECRAFT</h1>
+  </div>
+</div>
+
+<div class="tools" >
+  <div class="toolsContent">
+    <h3>Download Minecraft PE Disini</h3>
+    <h5>1.20.81.01</h5>
+    <div class="minecraftDownload" id="minecraftDownload">
+    <img class="minecraft" src="minecraftbtn.jpg" alt="Minecraft">
+    <h1>MINECRAFT 1.20.81.01</h1>
+    </div>
+    <div class="server">
+      <h3>Server Darkenz</h3>
+      <div class="textServer">
+        <div class="address">
+          <p>Address = https://darkenz.aternos.me</p>
+          <button id="salinAddress"  type="submit">salin</button>
+                </div>
+        <div class="port">
+          <p>Port = 17717</p>
+          <button id="salinPort" type="submit">salin</button>
+        </div>
+    </div>
+    <div class="congratsWrapper" id="blogButton">
+    <div class="congrats">
+      <img src="congrats.png" alt="congrats">
+      <div class="text">
+              <h3>Blog Dan Halaman</h3>
+      <p>Info tentang update website dan minecraft</p
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+
+<div class="footerWrapper">
+  <div class="footer">
+    <h5 style="font-size: 20px;">Lebih Lanjut</h5>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="https://api.whatsapp.com/send?phone=6289616295100">Contact</a></li>
+      <li><a href="https://link.dana.id/qr/ji12z9b">Donasi</a></li>
+    </ul>
+    <h6 style="margin-top: 10%;">© 2024 Darken Web Official.</h6>
+  </div>
+</div>
+
+
+  <!-- Project -->
+  <script src="main.js"></script>
+</body>
+</html>

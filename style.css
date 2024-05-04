@@ -1,0 +1,530 @@
+*,
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.navbarWrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 99%;
+  border: solid 2px;
+  position: fixed;
+  z-index: 99999;
+  background-color: rgba(22, 21, 21, 1);
+  color: white;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.8);
+}
+
+.arrow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  transition: all 0.3s;
+}
+
+.arr{
+  border-top: 5px solid green;
+  border-left: 5px solid green;
+  height: 10px;
+  width: 10px;
+  justify-content: center;
+  transform: rotate(-50deg);
+}
+
+.arrow:hover{
+  transform: rotate(370deg);
+}
+
+.navbarContent{
+  
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  
+}
+
+.logo h6{
+  font-family: "Montserrat", sans-serif;
+}
+
+.content ul li{
+  display: inline-block;
+  margin-top: 20px;
+  margin: 10px;
+}
+
+.content ul li a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.1s ;
+  cursor: none;
+}
+
+.content ul li a:hover{
+  color: greenyellow;
+  background-color: gray;
+  padding: 5px;
+  border-radius: 100px;
+}
+
+.bannerWrapper{
+  display: flex;
+  align-items: center;
+  margin-top: 90px;
+}
+
+.bannerIMG{
+  display: flex;
+  width: 310%;
+  transition: all 2s;
+}
+
+.bannerIMG img{
+  width: 100%;
+}
+
+.bannerButtons{
+  display: flex;
+  justify-content: center;
+  background-color: rgba(14, 11, 16, 1);
+}
+
+.bannerButtons input{
+  margin: 10px;
+  z-index: 1;
+}
+
+.home{
+  display: flex;
+  justify-content: center;
+  height: 70vh;
+  background: linear-gradient(to bottom, #6a50a7, #2c2154);
+  background-color: #6a50a7;
+}
+
+.homeContent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  margin-bottom: auto;
+  margin-top: auto;
+  border-radius: 10px;
+  width: 90%;
+  background-color: rgba(14, 11, 16, 1);
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+}
+
+.judul{
+  color: white;
+  justify-content: center;
+}
+
+.homeContent p{
+  color: white;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 10% 5%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.buttonNext {
+  color: white;
+  background-image: url('button.jpg');
+  background-size: cover; 
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px; 
+  transition: all 0.2s;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.buttonNext:hover {
+  font-size: 25px;
+}
+
+.community{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  background-color: rgba(25, 3, 43, 0.8);
+}
+
+.communityContent{
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  margin-bottom: auto;
+  margin-top: auto;
+  width: 100%;
+  background-color: rgba(14, 11, 16, 1);
+  flex-direction: column;
+  z-index: 9;
+}
+
+.communityLogo{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 10%;
+  color: white;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.discord {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+  border-radius: 50px;
+  transition: all 0.2s;
+  margin-top: 10%;
+}
+
+.discord:hover {
+  margin: 20px;
+}
+
+.discord img{
+  width: 40px;
+  border-radius: 50px;
+}
+
+.discord h1{
+  font-size: 30px;
+  text-transform: uppercase;
+  color: rgba(61, 84, 198, 0.8);
+  padding: 10px;
+}
+
+.whatsapp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+  border-radius: 50px;
+  margin-top: 10px;
+  transition: all 0.2s;
+}
+
+.whatsapp:hover {
+  margin: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.whatsapp img{
+  width: 40px;
+  border-radius: 50px;
+}
+
+.whatsapp h1{
+  font-size: 30px;
+  text-transform: uppercase;
+  color: rgba(35, 184, 72, 0.8);
+  padding: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.communityContent p{
+  color: white;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 15px;
+  margin: 15px;
+  font-family: "Quicksand", sans-serif;
+}
+
+.buttonTools{
+  display: flex;
+  color: white;
+  justify-content: center;
+  background-image: url('minecraftbtn.jpg');
+  background-size: cover; 
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  margin-top: 20%; 
+  transition: all 0.2s;
+  margin-bottom: auto;
+  font-family: "Montserrat", sans-serif;
+}
+
+.tools{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+  background: linear-gradient(to bottom, #1D8348, #195905);
+  background-color: #6a50a7;
+  color: white;
+}
+
+.toolsContent{
+  margin-top: 10%;
+}
+
+.toolsContent img{
+  width: 50px;
+}
+
+.toolsContent h3{
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.toolsContent h5{
+  display: flex;
+  justify-content: center;
+  font-family: "Quicksand", sans-serif;
+}
+
+.minecraftDownload{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  margin-top: 10%;
+  background-color: gray;
+  border-radius: 50px;
+  transition: all 0.3s;
+}
+
+.minecraftDownload:hover {
+  margin: 10px;
+}
+
+.minecraft{
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.server{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+}
+
+.server h3{
+  margin-top: 10%;
+  z-index: 9;
+  font-family: "Quicksand", sans-serif;
+}
+
+.textServer{
+  display: flex;
+  flex-direction: column;
+  margin-top: -30px;
+  background-color: rgba(14, 11, 16, 0.7);
+  height: 30vh;
+  align-items: center;
+  border: solid 5px white;
+  
+}
+
+.address{
+  display: flex;
+  flex-direction: column;
+  margin-top: 15%;
+  justify-content: center;
+  background-color: slategrey;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: "Quicksand", sans-serif;
+}
+
+.port{
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  background-color: slategrey;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: "Quicksand", sans-serif;
+}
+
+.congratsWrapper{
+  margin-top: 10%;
+  background-color: rgba(14, 11, 16, 1);
+  cursor: pointer;
+}
+
+.congrats{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  
+}
+
+.congrats img{
+  width: 100%;
+  height: 40vh;
+ 
+}
+
+.text h3{
+  display: flex;
+  margin-right: auto;
+  margin-top: 2%;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+
+.text p{
+  color: grey;
+  font-family: "Quicksand", sans-serif;
+  justify-content: center;
+  margin-left: 10%;
+}
+
+.footerWrapper{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: auto;
+  background-color: darkgreen;
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  margin-top: 10%;
+  width: 100%;
+  background-color: rgba(14, 11, 16, 1);
+  color: white;
+}
+
+.footer ul li{
+  margin: 10px
+}
+
+.footer ul li a{
+  color: white;
+}
+
+/* --------- INI BUAT BLOG  ----------*/
+
+  .blogWrapper{
+   background-color: rgba(14, 11, 16, 1);
+   height: auto;
+   margin-top: 10%;
+   justify-content: center;
+}
+
+.contentBlog{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10%;
+  color: white;
+}
+
+
+
+/*>>>>>>>>>BLOG USER 1<<<<<<<<<<<*/
+
+.blog1Wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px white;
+  width: 90%;
+  height: auto;
+  cursor: pointer;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.blog1 img{
+  width: 300px;
+  
+}
+
+.blog1 h3{
+  font-size: 30px;
+}
+
+.blog1 p{
+  margin-top: 3%;
+  font-size: 10px;
+  color: grey;
+  margin: 5px;
+}
+
+.blog1User img{
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+}
+
+.blog1User{
+  display: flex;
+  margin-top: 5%;
+}
+
+/*>>>>>>KONEKSI BLOG 1<<<<<<<<*/
+
+.blog1Profile img{
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+}
+
+.blog1Profile{
+  display: flex;
+  margin-top: 5%;
+  position: absolute;
+  top: 10%;
+  left: 4%;
+  cursor: pointer;
+}
+
+.koneksiBlog1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #6a50a7, #2c2154);
+   height: 100vh;
+   margin-top: 10%;
+}
+
+.paragrafBlog1{
+  display: flex;
+  position: absolute;
+  top: 30%;
+  align-items: center;
+  width: 90%;
+  height: auto;
+  background-color: rgba(14, 11, 16, 1);
+}
+
+.paragrafBlog1 p{
+  margin: 10%;
+  color: white;
+}
+
+.judulBlog1{
+  position: absolute;
+  top: 20%;
+  color: white;
+}
