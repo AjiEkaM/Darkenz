@@ -63,7 +63,7 @@ document.getElementById('whatsapp').addEventListener("click", function(){
 })
 
 document.getElementById("salinAddress").addEventListener('click', function() {
-  const textCopy = "https://darkenz.aternos.me"
+  const textCopy = "darkenz.aternos.me"
   navigator.clipboard.writeText(textCopy)
 })
 document.getElementById("salinPort").addEventListener('click', function() {
